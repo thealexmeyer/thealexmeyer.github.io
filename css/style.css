@@ -15,6 +15,12 @@ h1 {
 h3 {font-size: 150%;
     color: lime;
 }
+#box_0 {
+    border: 5px solid black;
+}
+#box_0:hover {
+    border: 5px solid red;
+}
 #box_1 {
     width: 28%;
     padding: 0px;
@@ -24,8 +30,9 @@ h3 {font-size: 150%;
     margin-top: 10px;
 }
 #box_1:hover {
-  border: 5px solid black;
+  border: 5px solid red;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -50,12 +57,12 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #000000;
-    color: white;
+    background-color: lime;
+    color: black;
 }
 
 .active {
-    background-color: #ffffff;
+    background-color: lime;
     color: black;
     
 }
@@ -68,7 +75,7 @@ li a:hover:not(.active) {
     width: 275px;
     padding: 10px;
     float: left;
-    border: 5px solid lime green;
+    border: 5px solid lime;
     margin-right: 10px;
     margin-top: 10px;
 }
@@ -81,7 +88,7 @@ li a:hover:not(.active) {
   color: blue;
 }
 #intro {
-  max-width: 75%;
+  max-width: 95%;
 }
 #portfoliostyle {
   margin-bottom: 65%;
@@ -92,5 +99,11 @@ li a:hover:not(.active) {
   margin-bottom: 200px;
 }
 #connectstyle {
-  clear: left
+  clear: left;
+}
+#cool-link {
+    color: blue;
+}
+#cool-link:hover {
+    color: red;
 }
